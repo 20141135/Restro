@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<div class="wrapper sticky">
+  <nav class="navbar-fixed-top">
+    <a href="#" class="logo">
+      <mat-icon><i class="fas fa-utensils" style="color: red;"></i></mat-icon> <b>RestroGO!</b>
+    </a>
+    <ul>
+      <li>
+        <a href="#">Home</a>
+        <a (click)="goToPage('signup')">Sign Up</a>
+        <!-- <a (click)="goToPage('forgotPassword')">Forgot Password</a> -->
+        <a (click)="goToPage('login')">Login</a>
+        <!-- <a (click)="SignupAction()">Sign Up</a> -->
+        <!-- <a href="/signup">Sign Up</a> -->
+      </li>
+    </ul>
+    <div class="searchbar">
+      <form action="" class="search-bar">
+          <input type="text" placeholder="Search....">
+          <button><i class="bx bx-search"></i></button>
+      </form>
+  </div>
+  </nav>
+</div>
+<div class="bg-image"></div>
+<app-best-seller></app-best-seller>
+
+<!-- <app-our-services></app-our-services> -->
+<div class="footer" id="signup">
+  <app-footer></app-footer>
+</div>
